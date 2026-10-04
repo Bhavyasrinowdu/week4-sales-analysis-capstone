@@ -14,7 +14,7 @@ Python was used for data cleaning, analysis, visualization, and regression model
 - Analyze yearly and monthly sales trends.
 - Create visualizations to understand sales performance.
 - Build a simple linear regression model to predict sales.
-- Create an interactive sales dashboard using Power BI.
+- Create a sales dashboard using Power BI.
 
 ## Tools and Technologies
 
@@ -53,8 +53,9 @@ The dataset contains 700 records and 16 columns.
 
 The following data cleaning steps were performed using Python:
 
-- Removed duplicate records.
+- Checked the dataset structure.
 - Checked for missing values.
+- Removed duplicate records.
 - Filled missing values in the Discount Band column.
 - Converted the Date column into date format.
 - Standardized column names.
@@ -62,7 +63,7 @@ The following data cleaning steps were performed using Python:
 
 ## Data Analysis
 
-Sales were analyzed based on:
+Sales were analyzed based on different categories.
 
 ### Sales by Segment
 
@@ -82,7 +83,7 @@ Sales were analyzed by year to understand yearly sales performance.
 
 ### Monthly Sales
 
-Monthly sales were analyzed to identify trends and high-performing months.
+Monthly sales were analyzed to identify sales trends and high-performing months.
 
 ## Regression Analysis
 
@@ -91,12 +92,14 @@ A simple Linear Regression model was created using:
 - Input: Units Sold
 - Target: Sales
 
-The dataset was divided into training and testing sets. The model was evaluated using:
+The dataset was divided into training and testing sets.
+
+The model was evaluated using:
 
 - Mean Absolute Error (MAE)
 - R² Score
 
-An Actual vs Predicted Sales graph was also created to visualize the model's performance.
+An Actual vs Predicted Sales graph was also created to compare the model predictions with actual sales values.
 
 ## Key Findings
 
@@ -129,10 +132,12 @@ Microsoft Excel was used to create PivotTables and charts for:
 A Power BI dashboard was created to visualize:
 
 - Sales by Segment
-- Sales by Product
-- Monthly Sales
 - Sales by Country
+- Sales by Product
 - Sales by Year
+- Monthly Sales
+
+The dashboard provides a visual overview of sales performance and makes it easier to identify trends and high-performing areas.
 
 ## Project Files
 
@@ -140,9 +145,10 @@ A Power BI dashboard was created to visualize:
 - `sales_analysis_and_visualization.ipynb` – Python data cleaning, analysis, visualization, and regression model
 - `Sales_Analysis.xlsx` – Excel PivotTables and sales analysis
 - `Sales_Analysis_Dashboard.pbix` – Power BI sales dashboard
+- `final report.docx` – Project report
 
 ## Conclusion
 
 The sales analysis provided useful insights into the company's sales performance. The analysis showed differences in sales across segments, countries, products, years, and months.
 
-Python, Excel, and Power BI were used to clean, analyze, visualize, and understand the sales data. The findings and recommendations can help identify strong-performing areas and improve sales performance.
+Python, Excel, and Power BI were used to clean, analyze, visualize, and understand the sales data. The findings and recommendations can help identify strong-performing areas and support better sales strategies.
